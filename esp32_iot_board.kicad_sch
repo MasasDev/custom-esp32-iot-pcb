@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1a768b86-a477-4bd6-9d8c-9679a4339e23")
+	(paper "A4")
+	(title_block
+		(title "ESP 32 IOT board")
+		(date "2025-07-17")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

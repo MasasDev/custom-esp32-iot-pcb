@@ -1,0 +1,32 @@
+# Ignore temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*~
+_autosave-*
+*.tmp
+*-rescue.lib
+*-save.pro
+*-save.kicad_pcb
+
+# Ignore netlist files
+*.net
+
+# Ignore autorouter files
+*.dsn
+*.ses
+
+# Ignore BOM files
+*.xml
+*.csv
+
+# Ignore cache directories
+.cache/
+
+# Ignore lock files
+*.pro.user
+*.kicad_pcb.user
+*.sch.user
+*.kicad_pcb-lock
+*.sch-lock
