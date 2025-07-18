@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "3dbfcc5e-e43d-4441-a021-5d2727e147cb")
+	(uuid "eeafeaa9-6abf-4280-a36a-d4823deb2405")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
@@ -1636,8 +1636,8 @@
 		(uuid 640704d3-d66e-4f4e-906f-b9671105e302)
 	)
 	(rectangle
-		(start 129.54 45.72)
-		(end 275.59 161.29)
+		(start 129.54 48.26)
+		(end 275.59 163.83)
 		(stroke
 			(width 0)
 			(type default)
@@ -1648,7 +1648,7 @@
 		(uuid e36e27ef-b177-4b9c-8788-b09f6460afa5)
 	)
 	(rectangle
-		(start 44.45 40.64)
+		(start 43.18 40.64)
 		(end 81.28 74.93)
 		(stroke
 			(width 0)
@@ -1691,7 +1691,7 @@
 		)
 		(uuid "891f07c7-bac7-45aa-9d46-1529af739288")
 	)
-	(text "Reset and BOOT Buttons\n"
+	(text "Reset and Boot Buttons\n"
 		(exclude_from_sim no)
 		(at 140.716 42.418 0)
 		(effects
@@ -1720,7 +1720,7 @@
 		(uuid "2fae5e87-c723-4470-acf5-a67971d050c1")
 	)
 	(junction
-		(at 154.94 135.89)
+		(at 154.94 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "303af3e2-33ac-486a-ad5e-46a81244a1d0")
@@ -1750,7 +1750,7 @@
 		(uuid "e3024485-e7dd-4d5a-879b-b6932ae74c19")
 	)
 	(junction
-		(at 156.21 115.57)
+		(at 156.21 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbd9abcb-d2bd-4624-94e0-561b05450a92")
@@ -1807,7 +1807,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 123.19) (xy 154.94 135.89)
+			(xy 154.94 127) (xy 154.94 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1817,7 +1817,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 125.73) (xy 156.21 115.57)
+			(xy 156.21 129.54) (xy 156.21 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1827,7 +1827,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 120.65) (xy 189.23 123.19)
+			(xy 189.23 124.46) (xy 189.23 127)
 		)
 		(stroke
 			(width 0)
@@ -1837,7 +1837,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 130.81) (xy 189.23 125.73)
+			(xy 189.23 134.62) (xy 189.23 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1877,7 +1877,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 123.19) (xy 154.94 123.19)
+			(xy 189.23 127) (xy 154.94 127)
 		)
 		(stroke
 			(width 0)
@@ -1887,7 +1887,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 115.57) (xy 160.02 115.57)
+			(xy 156.21 119.38) (xy 160.02 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1967,7 +1967,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 140.97) (xy 189.23 147.32)
+			(xy 189.23 144.78) (xy 189.23 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1977,7 +1977,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 125.73) (xy 156.21 125.73)
+			(xy 189.23 129.54) (xy 156.21 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1987,7 +1987,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 135.89) (xy 160.02 135.89)
+			(xy 154.94 139.7) (xy 160.02 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1997,7 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 135.89) (xy 181.61 135.89)
+			(xy 167.64 139.7) (xy 181.61 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2117,7 +2117,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 105.41) (xy 189.23 110.49)
+			(xy 189.23 109.22) (xy 189.23 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2127,7 +2127,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 115.57) (xy 181.61 115.57)
+			(xy 167.64 119.38) (xy 181.61 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2187,7 +2187,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 135.89) (xy 154.94 135.89)
+			(xy 147.32 139.7) (xy 154.94 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2207,7 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 115.57) (xy 156.21 115.57)
+			(xy 147.32 119.38) (xy 156.21 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2305,9 +2305,9 @@
 		)
 		(uuid "fe6a3891-cff4-4e4c-a1c0-53212facbde2")
 	)
-	(hierarchical_label "EN"
+	(hierarchical_label "CTRL_EN"
 		(shape input)
-		(at 189.23 105.41 90)
+		(at 189.23 109.22 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2316,7 +2316,7 @@
 		)
 		(uuid "5d6dd6e3-523b-4278-aa27-b785bd4b6100")
 	)
-	(hierarchical_label "SDA"
+	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
 		(at 53.34 55.88 180)
 		(effects
@@ -2327,7 +2327,7 @@
 		)
 		(uuid "8986079e-7b09-46da-a7a4-e2f072170e93")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "I2C_SCL"
 		(shape bidirectional)
 		(at 53.34 58.42 180)
 		(effects
@@ -2338,7 +2338,7 @@
 		)
 		(uuid "8d6854ab-e1a7-4c29-8e31-ff31ae882030")
 	)
-	(hierarchical_label "EN"
+	(hierarchical_label "CTRL_EN"
 		(shape input)
 		(at 213.36 67.31 180)
 		(effects
@@ -2349,9 +2349,9 @@
 		)
 		(uuid "a10f25f6-13e7-4f68-9c46-ca1c79dc16a2")
 	)
-	(hierarchical_label "DTR"
+	(hierarchical_label "CTRL_DTR"
 		(shape output)
-		(at 147.32 115.57 180)
+		(at 147.32 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2382,7 +2382,7 @@
 		)
 		(uuid "bb0e7418-3223-4955-aa56-063551793d3d")
 	)
-	(hierarchical_label "BOOT"
+	(hierarchical_label "CTRL_BOOT"
 		(shape input)
 		(at 143.51 67.31 180)
 		(effects
@@ -2393,9 +2393,9 @@
 		)
 		(uuid "bc17e415-6755-4c2d-9f4a-6b8fa8f0f5b6")
 	)
-	(hierarchical_label "BOOT"
+	(hierarchical_label "CTRL_BOOT"
 		(shape input)
-		(at 189.23 147.32 270)
+		(at 189.23 151.13 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2415,9 +2415,9 @@
 		)
 		(uuid "ec41427c-6382-4759-85cd-0b61a1f58234")
 	)
-	(hierarchical_label "RTS"
+	(hierarchical_label "CTRL_RTS"
 		(shape output)
-		(at 147.32 135.89 180)
+		(at 147.32 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3177,7 +3177,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 163.83 115.57 90)
+		(at 163.83 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3186,7 +3186,7 @@
 		(fields_autoplaced yes)
 		(uuid "a30a0e35-886e-482e-9e23-fd91bed7518e")
 		(property "Reference" "R31"
-			(at 163.83 109.22 90)
+			(at 163.83 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +3194,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 163.83 111.76 90)
+			(at 163.83 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,7 +3202,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 163.83 117.348 90)
+			(at 163.83 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,7 +3211,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 115.57 0)
+			(at 163.83 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3220,7 +3220,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 163.83 115.57 0)
+			(at 163.83 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +3245,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC817")
-		(at 186.69 135.89 0)
+		(at 186.69 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3254,7 +3254,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7fe0fac-0078-4860-8906-24adda9bea17")
 		(property "Reference" "Q2"
-			(at 191.77 134.6199 0)
+			(at 191.77 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3263,7 @@
 			)
 		)
 		(property "Value" "BC817"
-			(at 191.77 137.1599 0)
+			(at 191.77 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,7 +3272,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 191.77 137.795 0)
+			(at 191.77 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,7 +3283,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
-			(at 186.69 135.89 0)
+			(at 186.69 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3293,7 +3293,7 @@
 			)
 		)
 		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 186.69 135.89 0)
+			(at 186.69 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,7 +3895,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC817")
-		(at 186.69 115.57 0)
+		(at 186.69 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3904,7 +3904,7 @@
 		(fields_autoplaced yes)
 		(uuid "e311e2bb-0f62-472f-b8ef-00da61d2d659")
 		(property "Reference" "Q3"
-			(at 191.77 114.2999 0)
+			(at 191.77 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,7 +3913,7 @@
 			)
 		)
 		(property "Value" "BC817"
-			(at 191.77 116.8399 0)
+			(at 191.77 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +3922,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 191.77 117.475 0)
+			(at 191.77 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,7 +3933,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
-			(at 186.69 115.57 0)
+			(at 186.69 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +3943,7 @@
 			)
 		)
 		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 186.69 115.57 0)
+			(at 186.69 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +3971,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 163.83 135.89 90)
+		(at 163.83 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3980,7 +3980,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5806f49-3d69-4c03-9dfb-2886fb83383e")
 		(property "Reference" "R30"
-			(at 163.83 129.54 90)
+			(at 163.83 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3988,7 +3988,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 163.83 132.08 90)
+			(at 163.83 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,7 +3996,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 163.83 137.668 90)
+			(at 163.83 141.478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,7 +4005,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 135.89 0)
+			(at 163.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +4014,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 163.83 135.89 0)
+			(at 163.83 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
