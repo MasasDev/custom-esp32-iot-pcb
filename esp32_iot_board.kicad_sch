@@ -1476,16 +1476,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "onsemi"
+			(property "Description" "800-mA 15-V linear voltage regulator 4-SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1495,7 +1486,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "800-mA 15-V linear voltage regulator 4-SOT-223"
+			(property "MF" "onsemi"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3828,12 +3819,6 @@
 		(uuid "1316b2fe-574c-4c3c-a013-88d43abf533d")
 	)
 	(junction
-		(at 166.37 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ae5aedd-16c1-43d4-98f1-cc630a7c5930")
-	)
-	(junction
 		(at 82.55 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4253,6 +4238,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 157.48) (xy 123.19 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48210037-19c4-4306-88d2-846567a89bad")
+	)
+	(wire
+		(pts
 			(xy 177.8 85.09) (xy 177.8 95.25)
 		)
 		(stroke
@@ -4333,6 +4328,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 154.94) (xy 123.19 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b2d0f1-1161-45a9-b534-2cce206b6779")
+	)
+	(wire
+		(pts
 			(xy 31.75 39.37) (xy 36.83 39.37)
 		)
 		(stroke
@@ -4410,16 +4415,6 @@
 			(type default)
 		)
 		(uuid "7b324023-f899-46ea-9719-506e6434a7f3")
-	)
-	(wire
-		(pts
-			(xy 166.37 59.69) (xy 166.37 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cd911d8-8791-4aed-978d-2b35032269de")
 	)
 	(wire
 		(pts
@@ -4853,6 +4848,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 160.02) (xy 123.19 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e2801b-017b-4012-9fa8-8abb70558e00")
+	)
+	(wire
+		(pts
 			(xy 187.96 55.88) (xy 187.96 60.96)
 		)
 		(stroke
@@ -5102,6 +5107,16 @@
 		(uuid "575fa216-0c18-4e8e-a560-e5cf0f6584dc")
 	)
 	(label "USB_D+"
+		(at 123.19 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59f82bf7-1131-4834-83c4-1e7d5d5e795c")
+	)
+	(label "USB_D+"
 		(at 30.48 44.45 0)
 		(effects
 			(font
@@ -5140,6 +5155,16 @@
 			(justify left bottom)
 		)
 		(uuid "6c5756be-b02d-49f9-8042-f5769708b417")
+	)
+	(label "VBUS"
+		(at 123.19 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d4426f6-4c07-44c3-95e1-0ea6ae313727")
 	)
 	(label "VBAT"
 		(at 187.96 59.69 90)
@@ -5190,6 +5215,16 @@
 			(justify left bottom)
 		)
 		(uuid "b9b1caa0-1b75-4394-b5e1-977bc5efa1fc")
+	)
+	(label "USB_D-"
+		(at 123.19 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0e190c0-ba29-44b1-99e0-3780bf0148f4")
 	)
 	(label "+5v_USB"
 		(at 123.19 39.37 0)
@@ -9214,7 +9249,7 @@
 	)
 	(sheet
 		(at 96.52 151.13)
-		(size 12.7 16.51)
+		(size 21.59 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9238,12 +9273,42 @@
 			)
 		)
 		(property "Sheetfile" "esp32-c3-02.kicad_sch"
-			(at 96.52 168.2246 0)
+			(at 96.52 174.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_D+" input
+			(at 118.11 154.94 0)
+			(uuid "f460e9f5-bf58-4bf9-ad14-1235cd126e5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" input
+			(at 118.11 157.48 0)
+			(uuid "b6852a27-f987-4265-a846-7d400531bdd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" input
+			(at 118.11 160.02 0)
+			(uuid "b87f66ed-8915-45ff-960c-c837dc318da5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
